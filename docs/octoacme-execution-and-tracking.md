@@ -15,6 +15,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Include issue link and acceptance criteria in PR description
   - Run automated tests and linting in CI before requesting review
   - Require at least one approval before merging (or team-defined policy)
+- **Role handoffs**: Use the [Role Handoff Checklist](role-handoff-checklist.md) to ensure smooth transitions between design, development, QA, and support phases
+- **Clarify ownership**: Refer to the [Role Responsibility Matrix](role-responsibility-matrix.md) to identify accountable roles for activities and decisions
 
 ## Quality & Testing
 - Unit tests for new logic
@@ -32,6 +34,7 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Level 1: Team-level triage in daily standup
 - Level 2: PM escalates to Product Lead and dependent teams
 - Level 3: Sponsor-level escalation for business-impacting issues
+- **Tip**: When escalating, identify the accountable role owner from the [Role Responsibility Matrix](role-responsibility-matrix.md) to ensure the right person is engaged
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
